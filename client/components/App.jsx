@@ -1,9 +1,11 @@
 import React from 'react'
+import Header from './Header'
+import Listing from '../containers/Listing'
 
-// This might need to be turned into a stateful component (aka container)
 const App = () => (
   <div className='app'>
-    Ready to rock and roll
+    <Header />
+    <Listing />
   </div>
 )
 
