@@ -5,7 +5,7 @@ export default function ({beers}) {
   return (
     <div className='beers'>
         {beers.map((beer, i) => (
-          <BeerItem beer={beer} key={i}/>
+          <BeerListItem beer={beer} key={i}/>
         ))}
     </div>
   )

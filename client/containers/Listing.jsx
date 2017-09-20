@@ -7,9 +7,9 @@ const Listing =({beers}) => {
 }
 
 function mapStateToProps(state) {
-  return(
+  return{
     beers: state.beers
-  )
+  }
 }
 
 export default connect(mapStateToProps)(Listing)
