@@ -1,11 +1,7 @@
 import React from 'react'
 
-const Header =() => {
-  return (
-    <h1>
-      Sweet As Beer
-    </h1>
-  )
-}
-
-export default Header
+export default () => (
+  <div>
+    <h1><span className="fa fa-beer"></span> Sweet As Beers <span className="fa fa-beer"></span></h1>
+  </div>
+)
